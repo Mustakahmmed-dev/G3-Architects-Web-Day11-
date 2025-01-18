@@ -118,7 +118,6 @@ nav{
     font-size: 18px;
     margin-top: 15px;
     line-height: 1.8;
-    letter-spacing: 0.2cap;
 }
 .text-gray{
     color: gray;
@@ -142,8 +141,61 @@ nav{
         padding: 40px 0px;
         max-width: 90%;
     }
-    .our-feature-container{
-        
-    }
+   
 }
 /* Header ends here */
+
+/* Love Feature Section */
+.love-feature-sec{
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+.love-features-container{
+    gap: 20px;
+}
+.architect-img{
+    width: 100%;
+    height: 800px;
+}
+.love-features-cards > h1{
+    font-size: 55px;
+    color: rgb(19, 19, 19);
+    padding: 15px 10px;
+    border-left: 5px solid orange;
+    font-weight: 700;
+}
+.love-features-cards p{
+    font-size: 15px;
+    color: rgb(114, 114, 114);
+    margin: 15px 0px;
+    font-weight: 400;
+}
+.feature-card{
+    max-width: 550px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.feature-card > h3{
+    font-weight: 600;
+    color: rgb(19, 19, 19);
+
+}
+.experience-box{
+    padding: 45px;
+    background-color: rgb(255, 144, 14);
+    max-width: 180px;
+    text-align: center;
+    position: relative;
+    left: 48%;
+    top: -170px;
+    border-radius: 8px;
+}
+.experience-box > h2{
+    color: white;
+    font-size: 35px;
+}
+.experience-box-text{
+    color: rgba(255, 255, 255, 0.923);
+}
