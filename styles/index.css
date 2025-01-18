@@ -269,3 +269,38 @@ nav{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+/* Our Sponsor section */
+.our-sponsor-sec{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.our-sponsor-sec > h1{
+    margin-bottom: 15px;
+    font-size: 45px;
+    color: rgb(19, 19, 19);
+}
+.our-sponsor-sec > p{
+    color: rgb(114, 114, 114);
+}
+.sponsor-cards-container{
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    opacity: 0.8;
+}
+
+/* Responsiveness */
+@media screen and (max-width:576px){
+    .sponsor-cards-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .sponsor-cards-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
